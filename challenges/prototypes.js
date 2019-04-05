@@ -29,7 +29,7 @@ CuboidMaker.prototype.volume = function () {
 */
 
 CuboidMaker.prototype.surfaceArea = function () {
-    return 2 * (length * width + length * height + width * height);
+    return 2 * ((length * width) + (length * height) + (width * height));
 }
 
 /* == Step 4: Create a new object that uses CuboidMaker ==
